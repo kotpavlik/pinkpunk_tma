@@ -9,7 +9,7 @@ const App: Component = () => {
   return (
 
     <Router>
-      <Route path="/" component={MainScreen} />
+      <Route path="/pinkpunk_tma" component={MainScreen} />
       <Route path="*404" component={NotFounded} />
     </Router>
 
