@@ -19,6 +19,8 @@
     "vite-plugin-solid": "^2.8.2"
   },
   "dependencies": {
+    "@solidjs/router": "^0.14.1",
+    "@tonconnect/ui-react": "^2.0.6",
     "axios": "^1.7.2",
     "solid-js": "^1.8.18"
   }
