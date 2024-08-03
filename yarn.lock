@@ -665,7 +665,7 @@
     tweetnacl "^1.0.3"
     tweetnacl-util "^0.15.1"
 
-"@tonconnect/sdk@3.0.3":
+"@tonconnect/sdk@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@tonconnect/sdk/-/sdk-3.0.3.tgz#0cc6a570817194c648193f7a1db525419c570e3f"
   integrity sha512-ElVre1DPixzQLgLtQIa8Wu5xS8nozlgblZTJhFFPrk82M2rZ+sawyF+LAVwt9wZRN7+htWnJrNz0+bBr4b3geA==
@@ -673,23 +673,6 @@
     "@tonconnect/isomorphic-eventsource" "^0.0.2"
     "@tonconnect/isomorphic-fetch" "^0.0.3"
     "@tonconnect/protocol" "^2.2.6"
-
-"@tonconnect/ui-react@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@tonconnect/ui-react/-/ui-react-2.0.6.tgz#9adadda97da0c8ff2e40eee5dbaa1693aa6662b5"
-  integrity sha512-9VRYP2o/YW4ti+rOMSptIYaRO39V5UFmzdUl18AmDFDdynjacAIht/IInO+AGAKfrnF9bUk/J5NgLcbxVqvZww==
-  dependencies:
-    "@tonconnect/ui" "2.0.6"
-
-"@tonconnect/ui@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@tonconnect/ui/-/ui-2.0.6.tgz#4cf092b3ff138238fa7ae7d4754d8bfed549d892"
-  integrity sha512-JMTSxgbnpDjpHi9g0s7w3tpAiLHa8BHUpaBrbSTDcKGQVEm7+NtqhN+gQkGkm8pV7NYRqiS/sKUpRQ1MyjtTBQ==
-  dependencies:
-    "@tonconnect/sdk" "3.0.3"
-    classnames "^2.3.2"
-    deepmerge "^4.2.2"
-    ua-parser-js "^1.0.35"
 
 "@types/babel__core@^7.20.4":
   version "7.20.5"
@@ -888,11 +871,6 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-classnames@^2.3.2:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
-  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
-
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -959,11 +937,6 @@ debug@^4.1.0, debug@^4.3.1:
   integrity sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==
   dependencies:
     ms "2.1.2"
-
-deepmerge@^4.2.2:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
-  integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -1725,11 +1698,6 @@ typescript@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.3.tgz#e1b0a3c394190838a0b168e771b0ad56a0af0faa"
   integrity sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==
-
-ua-parser-js@^1.0.35:
-  version "1.0.38"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.38.tgz#66bb0c4c0e322fe48edfe6d446df6042e62f25e2"
-  integrity sha512-Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==
 
 update-browserslist-db@^1.1.0:
   version "1.1.0"

@@ -1,15 +1,29 @@
+import TonConnect from '@tonconnect/sdk';
+import { Component, createSignal } from "solid-js";
+const connector = new TonConnect();
 
-import { TonConnectButton } from "@tonconnect/ui-react";
-import { Component } from "solid-js";
+
 
 const MainScreen: Component = () => {
 
+    const [walletList, setWalletList] = createSignal()
+    const WalletList = async () => {
+        const walletsList = await connector.getWallets();
+        setWalletList(walletsList)
+    }
+
+    connector.restoreConnection();
+    const unsubscribe = connector.onStatusChange(
+        walletInfo => {
+            // update state/reactive variables to show updates in the ui
+        }
+    );
 
     return (
         <div>
-            <span>My App with React UI</span>
-            <TonConnectButton className="my-button-class" />
-
+            <div>main mazafaka</div>
+            <div>{walletList.name}</div>
+            <button onClick={WalletList}> create list</button>
         </div>
     )
 }
