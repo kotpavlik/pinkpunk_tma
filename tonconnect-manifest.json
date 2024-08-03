@@ -1,7 +1,5 @@
 {
-    "url": "https://pinkpunk-tma.vercel.app/",
+    "url": "https://kotpavlik.github.io/pinkpunk_tma/",
     "name": "PinkPunkSquard",
-    "iconUrl": "<app-icon-url>",
-    "termsOfUseUrl": "<terms-of-use-url>",
-    "privacyPolicyUrl": "<privacy-policy-url>"
+    "iconUrl": "https://kotpavlik.github.io/pinkpunk_tma/public/pnk.png"
 }
