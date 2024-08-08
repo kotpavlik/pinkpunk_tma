@@ -1,7 +1,6 @@
 {
     "name": "pinkpunk_tma",
     "version": "0.0.0",
-    "private": true,
     "description": "",
     "main": "index.js",
     "homepage": "https://kotpavlik.github.io/pinkpunk_tma",
