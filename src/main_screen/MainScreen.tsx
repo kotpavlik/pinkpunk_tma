@@ -15,8 +15,7 @@ const MainScreen: Component = () => {
 
     return (
         <div>
-            <div>main mazafaka</div>
-
+            <div>main mazafaka</div><div>fuck</div>
             <button> crdfbdfbdfbdfbdfeate list sdv</button>
 
         </div>
