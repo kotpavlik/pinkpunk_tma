@@ -14,7 +14,7 @@ const MainScreen: Component = () => {
     console.log(tonConnectUI)
 
     return (
-        <div class='w-screen h-screen' >
+        <div class='w-screen h-screen text-white mt-20px flex justify-between ' >
             <div>main mazafaka</div><div>fuck</div>
             <button> crdfbdfbdfbdfbdfeate list sdv</button>
 
