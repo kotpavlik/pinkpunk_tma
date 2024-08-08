@@ -17,7 +17,7 @@ const MainScreen: Component = () => {
         <div>
             <div>main mazafaka</div>
 
-            <button> create list</button>
+            <button> create list sdv</button>
 
         </div>
     )
