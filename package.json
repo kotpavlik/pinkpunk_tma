@@ -5,8 +5,6 @@
     "main": "index.js",
     "homepage": "https://kotpavlik.github.io/pinkpunk_tma",
     "scripts": {
-        "deploy": "gh-pages -d dist",
-        "predeploy": "yarn run build",
         "start": "vite",
         "dev": "vite",
         "build": "vite build",
