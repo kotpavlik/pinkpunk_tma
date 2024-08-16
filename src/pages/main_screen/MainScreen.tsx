@@ -12,7 +12,7 @@ export const TonConnectPage: Component = () => {
             <div> header</div>
             <div class=''>
                 <TonConnectButton />
-                <div>sex</div>
+                <div>sex pistols</div>
             </div>
             <div>footer menu</div>
 
