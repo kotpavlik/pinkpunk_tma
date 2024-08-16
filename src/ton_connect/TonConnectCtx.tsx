@@ -9,7 +9,7 @@ export type TonConnectUIContextType = [
 ];
 
 export const TonConnectUIContext = createContext<TonConnectUIContextType>();
-console.log(TonConnectUIContext)
+
 export function useTonConnectUI(): TonConnectUIContextType {
     const context = useContext(TonConnectUIContext);
     if (!context) {
