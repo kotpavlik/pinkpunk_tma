@@ -1,5 +1,6 @@
 import { onCleanup, onMount, type Component } from 'solid-js';
 import { useTonConnectUI } from './TonConnectCtx';
+import { THEME } from '@tonconnect/ui';
 
 
 
@@ -8,7 +9,16 @@ export const TonConnectButton: Component = () => {
     const buttonRootId = 'ton-connect-button';
 
     onMount(() => {
-        setUIOptions({ buttonRootId });
+        setUIOptions({
+            buttonRootId,
+            uiPreferences: {
+                theme: THEME.DARK,
+                colorsSet: {
+                    LIGHT: { background: { tint: "black" } },
+                    DARK: { background: { tint: "white" } }
+                }
+            }
+        });
     });
 
     onCleanup(() => {

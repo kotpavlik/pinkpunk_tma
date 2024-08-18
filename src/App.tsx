@@ -6,10 +6,15 @@ import { TonConnectPage } from './pages/main_screen/MainScreen';
 
 
 WebApp.ready();
+WebApp.setHeaderColor('#1a1a1a');
+WebApp.platform
 
 const App: Component = () => {
+
+
+
   return (
-    <div class='w-screen h-svh relative '>
+    <div class='w-screen h-svh relative bg-[#1a1a1a]'>
       <Router>
         <Route path="/" component={TonConnectPage} />
         <Route path="*404" component={NotFounded} />
